@@ -8,6 +8,13 @@ body {
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Inter';
+	src: url('inter.woff2') format('woff2');
+	font-display: swap;
+  }
+  
+
 .top-header {
     background-color: white;
     position: sticky;
