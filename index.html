@@ -1,73 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<title>Nina Carducci | Shooting photos, Retouche & Album photos à Bordeaux</title>
-	<meta name="description" content="Photographe passionné, je capture vos moments précieux avec émotion et technique. Immortalisez vos souvenirs avec des portraits, mariages, concerts et plus.">
-
-	<!-- Preload critical CSS -->
-	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<link rel="preload" href="./assets/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-	<!-- Preconnect to improve font loading -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-
-	<!-- Lazyload script -->
-	<script defer src="./assets/js/lazyload.min.js"></script>
-</head>
-<body>
-	<div class="top-header">
-		<h1 class="name">Nina Carducci</h1>
-		<nav class="nav">   
-			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li>
-					<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" rel="noopener">
-						<img src="./assets/images/instagram.webp" alt="Instagram" loading="lazy">
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-
-	<!-- Carousel -->
-	<div id="header">
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="Image carousel 1">
-				</div>
-				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Image carousel 2" loading="lazy">
-				</div>
-				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="Image carousel 3" loading="lazy">
-				</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Nina Carducci | Shooting photos, Retouche & Album photos à Bordeaux</title>
+		<meta name="description" content="Photographe passionné, je capture vos moments précieux avec émotion et technique. Immortalisez vos souvenirs avec des portraits, mariages, concerts et plus.">
+		
+		<!-- Preload critical CSS -->
+		<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style">
+		<link rel="preload" href="./assets/style.css" as="style">
+		
+		<!-- Preload fonts -->
+		<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style">
+		
+		<!-- Preconnect to external resources -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="./assets/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="top-header">
+			<h1 class="name">Nina Carducci</h1>
+			<nav class="nav">   
+				<ul>
+					<li><a href="#about">À propos</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li>
+						<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" rel="noopener">
+							<img src="./assets/images/instagram.webp" alt="Instagram" loading="lazy">
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-	</div>
-
-	<!-- Remaining sections omitted for brevity -->
-</body>
+	
+		<!-- Carousel -->
+		<div id="header">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="Image carousel 1">
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Image carousel 2" loading="lazy">
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="Image carousel 3" loading="lazy">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	
+		<!-- Remaining sections omitted for brevity -->
+	</body>
 </html>
