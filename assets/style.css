@@ -1,6 +1,7 @@
 body {
     max-width: 1200px;
     margin: auto;
+	font-size: 1rem
 }
 
 * {
@@ -8,12 +9,6 @@ body {
     font-style: normal;
 }
 
-@font-face {
-	font-family: 'Inter';
-	src: url('inter.woff2') format('woff2');
-	font-display: swap;
-  }
-  
 
 .top-header {
     background-color: white;
@@ -91,7 +86,6 @@ body {
 }
 
 .about-me__introduction {
-    font-family: 'Spectral';
     font-weight: 800;
     font-style: italic;
     width: 60%;
@@ -154,7 +148,6 @@ body {
 }
 
 .quote {
-    font-family: 'Spectral';
     font-style: italic;
     width: 70%;
     margin: auto;
@@ -162,13 +155,13 @@ body {
 }
 
 .quote__text {
-    font-family: 'Spectral';
+	font-style: italic;
     font-style: italic;
     font-weight: 300;
 }
 
 .quote__author {
-    font-family: 'Spectral';
+	font-style: italic;
     font-weight: 800;
     font-size: 22px;
 }
