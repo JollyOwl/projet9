@@ -75,6 +75,19 @@ body {
     width: 100%;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1; 
+    background-color: #000000;
+    width: 56px;
+    height: 56px;
+    padding: 4px;
+    border-radius: 100%;
+    top: 50%;
+    margin: 8px;
+}
+
+
 #about-me {
     flex: 2;
 }
@@ -345,4 +358,10 @@ input[type="submit"] {
     .picture {
         width: 80%;
     }
+    .carousel-control-next,
+    .carousel-control-prev  {
+        display: none;
+
+}
+  
 }
