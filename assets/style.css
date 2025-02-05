@@ -90,6 +90,9 @@ body {
 
 #about-me {
     flex: 2;
+    position: relative;
+    z-index: 1 ;
+
 }
 
 .about-me__title {
